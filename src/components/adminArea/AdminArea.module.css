@@ -1,0 +1,85 @@
+.mainFrame{
+    margin : 0;
+    height: 100vh;
+    display: flex;
+    background-color: #05050b;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.title{
+    color: white;
+    
+}
+.navBar{
+    margin-top :20px;
+    margin-left:  9px;
+    color: white;
+    padding: 0px 10px;
+    background-color: #488A99;
+    height: 95vh;
+    width: 10vh;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+.navBar img{
+    size: 20px;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+}
+.rightSection{
+     margin-left: 50px;
+     margin-top: 20px;
+     width: 200vh;
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     justify-content: center;
+     row-gap: 50px;
+}
+.searchBar{
+    margin-top: 10px;
+    background-color: #dadada16;
+    padding: 10px 25px;
+    border-radius: 19px;
+
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-between;
+}
+.searchBar input{
+    background : transparent;
+    border: transparent;
+    width: 450px;
+    padding : 7px 10px;
+}
+.searchBar img{
+    color: wheat;
+    margin-left: 5px;
+}
+
+.ordersArea{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    column-gap: 300px;
+    background-color: #dadada35;
+    padding : 5px 20px;
+    color: white;
+    border-radius: 12px;
+    width: auto;
+}
+.welcome{
+    color: white;
+    font-size: 35px;
+}
+.dashy{
+    cursor: pointer;
+}
